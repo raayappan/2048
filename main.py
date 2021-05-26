@@ -47,7 +47,7 @@ class Board:
             for j in range(4):
                 l = Label(self.gameArea, text='', bg='azure4',
                           font=('arial', 22, 'bold'), width=4, height=2)
-                l.grid(row=i, column=j, padx=7, pady=7)
+                l.grid(row=i, column=j, padx=1, pady=1)
                 rows.append(l);
             self.board.append(rows)
         self.gameArea.grid()
